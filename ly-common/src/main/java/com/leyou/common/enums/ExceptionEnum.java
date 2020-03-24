@@ -6,7 +6,7 @@ package com.leyou.common.enums;
  **/
 public enum ExceptionEnum {
     PRICE_CANNOT_BE_NULL(400,"价格不能为空!"),
-
+    CATEGORY_NOT_FOUND(404,"无商品分类信息")
     ;
     private int code;
     private String msg;
